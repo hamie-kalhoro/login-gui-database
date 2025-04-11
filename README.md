@@ -1,7 +1,7 @@
-🔐 Login GUI with Database Integration
+🔐 Login GUI with Database Integration: 
 A simple and functional Java Swing GUI application for user login and registration, integrated with a MySQL database. Great for learning Java desktop application development and database connectivity.
 
-✨ Features
+✨ Features: <br>
 🧑‍💻 User Authentication — Login & Registration functionality
 
 💾 MySQL Database integration for persistent data storage
@@ -14,13 +14,11 @@ A simple and functional Java Swing GUI application for user login and registrati
 
 📁 Clean and modular file structure
 
-🖼️ GUI Preview
+🖼️ GUI Preview:
 Add screenshots here for better visuals!
 For example:
 
 css
-Copy
-Edit
 📸 [Login Form Screenshot]
 📸 [Registration Form Screenshot]
 🛠️ Tech Stack
@@ -30,17 +28,15 @@ Edit
 
 🧩 JDBC (Java Database Connectivity)
 
-📂 Project Structure
+📂 Project Structure:
 pgsql
-Copy
-Edit
 login-gui-database/
 │
 ├── DBConnection.java      # Handles database connection
 ├── Login.java             # Login screen and logic
 ├── Register.java          # Registration screen and logic
 └── Users (Table)          # MySQL table for storing user info
-🏁 Getting Started
+🏁 Getting Started:
 ✅ Prerequisites
 Java JDK installed (Java 8 or above)
 
@@ -48,11 +44,11 @@ MySQL Server installed
 
 MySQL JDBC Driver (Connector/J)
 
-📥 Clone the Repository
+📥 Clone the Repository:
 bash
 git clone https://github.com/hamie-kalhoro/login-gui-database.git
 cd login-gui-database
-🧰 Setup Instructions
+🧰 Setup Instructions:
 🔧 Configure MySQL Database:
 
 Create a database: login_db
@@ -73,13 +69,13 @@ String user = "your-username";
 String password = "your-password";
 ▶️ Run the Application: Compile and run using your preferred IDE or terminal.
 
-📌 Notes
+📌 Notes:
 🔐 Passwords are stored in plain text (for simplicity). For real-world projects, use hashing (e.g., BCrypt).
 
 🛡️ Add input sanitization and prepared statements to avoid SQL injection.
 
-🙌 Contributing
+🙌 Contributing:
 Contributions are welcome! Fork the repo, make changes, and open a pull request.
 
-📄 License
+📄 License:
 This project is open-source and available.
